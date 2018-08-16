@@ -12,22 +12,17 @@
 
 # LINCOLN DataScience Challenge #2
 ### CIFAR-10 - Image Recongnition
----
 
 # Purpose
----
 The goal of this notebook is to fit a convolutional network to the dataset CIFAR-10 using the Keras Framework and a Residual Network architecture.
 
 # Documentation
----
-
 + Deep Residual Learning for Image Recognition https://arxiv.org/pdf/1512.03385.pdf
 + Identity Mappings in Deep Residual Networks https://arxiv.org/pdf/1603.05027.pdf
 + GitHub https://github.com/raghakot/keras-resnet
 + State of art http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html
 
 # Modules
----
 
 
 ```python
@@ -62,7 +57,6 @@ config.gpu_options.allow_growth = True
 
 
 # Loading images and labels
----
 
 ### Images
 
@@ -123,7 +117,6 @@ plt.show()
 
 
 # Residual Neural Network - Setup
----
 
 ### Train / test set
 
@@ -349,7 +342,6 @@ datagen.fit(X)
 ```
 
 # Residual Neural Network - Training
----
 
 ### With data augmentation
 
@@ -480,7 +472,6 @@ print('Processing time : %.2f heures' % ((end_time - start_time)/3600))
 
 
 # Residual Neural Network - Results
----
 
 ### Accuracy / Score
 

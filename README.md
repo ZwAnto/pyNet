@@ -3,17 +3,14 @@
 
 # LINCOLN DataScience Challenge #2
 ## CIFAR-10 - Image Recongnition
----
 
 # Content of the directory
----
 - **convNet** folder: it's a python package containing all the functions and class relative to the custom implementation of the CNN.
 - **MNIST** and **CIFAR-10** folders: contains the training datasets.
-- **ConvNet-MNIST.ipynb**: notebook that train a CNN using the custom implementation on the MNIST dataset.
-- **ResNet-CIFAR-10.ipynb**: notebook that train a Residual Network using Keras on the CIFAR-10 dataset.
+- **ConvNet-MNIST.ipynb**: jupyter notebook that train a CNN using the custom implementation on the MNIST dataset.
+- **ResNet-CIFAR-10.ipynb**: jupyter notebook that train a Residual Network using Keras on the CIFAR-10 dataset.
 
 # Module requirements
----
 For the custom implementation and the residual network
 - numpy
 - sklearn
@@ -27,14 +24,12 @@ For the residual network
 - tensorflow
 
 # Importing datasets
----
 ### MNIST
 Place the 'train.csv' corresponding to the MNIST dataset in the 'MNIST' folder.
 ### CIFAR-10
 Place the 'train' folder and the 'trainLabels.csv' containing the training image and labels in the 'CIFAR-10' folder.
 
 # How to use the custom implementation of CNN
----
 To train a neural network using the custom implementation, you first need to load the **conv_net** class present in the **convNet.conv_net** module.
 
 

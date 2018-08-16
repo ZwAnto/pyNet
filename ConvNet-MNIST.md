@@ -12,10 +12,8 @@
 
 # LINCOLN DataScience Challenge #2
 ## CIFAR-10 - Image Recongnition
----
 
 # Purpose
----
 The goal of this notebook is to test the custom CNN implementation using the MNIST dataset.
 
 Task done by the implementation:
@@ -25,7 +23,6 @@ Task done by the implementation:
 - Weight update using RMSprop
 
 # Modules
----
 
 
 ```python
@@ -39,7 +36,6 @@ from convNet import imfunc as imf
 ```
 
 # Loading training image and label
----
 
 ### Image
 
@@ -83,7 +79,6 @@ plt.show()
 
 
 # Convolutional Neural Network - Training
----
 
 ### Train / test set
 
@@ -706,7 +701,6 @@ imf.save_object(model, 'model_MNIST.pkl')
 ```
 
 # Convolutional Neural Network - Results
----
 
 ### Plotting training process
 
