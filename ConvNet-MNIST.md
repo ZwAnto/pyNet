@@ -696,7 +696,7 @@ model.train(train=(X,Y),
 
 ```python
 imf.save_object(model, 'model_MNIST.pkl')
-# For reloading saved model:
+# To reload saved model:
 #model = imf.load_object('model_MNIST.pkl')
 ```
 
